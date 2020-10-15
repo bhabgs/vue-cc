@@ -1,0 +1,111 @@
+[
+  {
+    "title": "混煤转载配仓系统",
+    "img": "double",
+    "sysCode": "MIX_TRANS_BUNKER_SYS",
+    "cabinName": "煤泥仓",
+    "coordinates": "1",
+    "state": "",
+    "hFlex": 2,
+    "targets": ["1-3"],
+    "circle": { "x": 0, "y": 0, "r": 0 }
+  },
+  {
+    "title": "产品脱水脱介系统",
+    "coordinates": "1-3",
+    "state": "",
+    "sysCode": "PROD_DEHYDRATION_SYSTEM",
+    "targets": ["1-1-4"],
+    "circle": { "x": 0, "y": 0, "r": 0 }
+  },
+  {
+    "title": "煤泥水系统",
+    "sysCode": "SLIME_WATER_SYSTEM",
+    "coordinates": "1-1-4",
+    "targets": ["2-1-4"],
+    "state": "",
+    "circle": { "x": 0, "y": 0, "r": 0 }
+  },
+  {
+    "title": "矸石转载系统",
+    "img": "one",
+    "hFlex": 2,
+    "sysCode": "GANGUE_TRANS_SYS",
+    "cabinName": "矸石仓",
+    "coordinates": "2",
+    "state": "",
+    "targets": ["3-3", "1-3"],
+    "circle": { "x": 0, "y": 0, "r": 0 }
+  },
+  {
+    "title": "主洗稀介系统",
+    "sysCode": "MAIN_DILUTE_MEDIUM_SYSTEM",
+    "coordinates": "2-1-4",
+    "state": "",
+    "targets": ["3-1-4"],
+    "circle": { "x": 0, "y": 0, "r": 0 }
+  },
+  {
+    "title": "块煤转载配仓系统",
+    "img": "double",
+    "hFlex": 2,
+    "wFlex": 2,
+    "sysCode": "BLOCK_TRANS_BUNKER_SYS",
+    "cabinName": "块煤仓",
+    "coordinates": "3",
+    "state": "",
+    "targets": ["3-3"],
+    "circle": { "x": 0, "y": 0, "r": 0 }
+  },
+  {
+    "title": "智能干选系统",
+    "sysCode": "SMART_DRY_SELECTION_SYS",
+    "coordinates": "3-3",
+    "state": "",
+    "targets": ["5-3"],
+    "circle": { "x": 0, "y": 0, "r": 0 }
+  },
+  {
+    "title": "供水系统",
+    "sysCode": "WATER_SUPPLY_SYS",
+    "coordinates": "3-1-4",
+    "state": "",
+    "targets": ["4-1-4"],
+    "circle": { "x": 0, "y": 0, "r": 0 }
+  },
+  {
+    "title": "主洗合介系统",
+    "sysCode": "MAIN_DVALID_MEDIUM_SYSTEM",
+    "coordinates": "4-1-4",
+    "state": "",
+    "targets": ["5-1-4"],
+    "circle": { "x": 0, "y": 0, "r": 0 }
+  },
+  {
+    "title": "原煤脱粉系统",
+    "sysCode": "RAW_DEDUSTING_SYS",
+    "coordinates": "5-1-4",
+    "targets": ["5-3"],
+    "state": "",
+    "circle": { "x": 0, "y": 0, "r": 0 }
+  },
+  {
+    "title": "原煤分级系统",
+    "sysCode": "RAW_COAL_CLASS_SYS",
+    "coordinates": "5-3",
+    "targets": ["5"],
+    "state": "",
+    "circle": { "x": 0, "y": 0, "r": 0 }
+  },
+  {
+    "title": "原煤给煤系统",
+    "img": "double",
+    "hFlex": 2,
+    "state": "",
+    "sysCode": "RAW_COAL_FEED_SYSTEM",
+    "cabinName": "原煤仓",
+    "coordinates": "5",
+    "targets": [],
+    "circle": { "x": 0, "y": 0, "r": 0 }
+  }
+]
